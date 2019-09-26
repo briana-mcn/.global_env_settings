@@ -1,13 +1,16 @@
 {
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.autoSave": "off",
+    "files.autoSave": "afterDelay",
     "java.configuration.checkProjectSettingsExclusions": false,
     "python.jediEnabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "search.useIgnoreFiles": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
-
+    "[javascript]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+    },
 }
